@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B2EBDC1250A37EB00B9848A /* SamsungProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2EBDC0250A37EB00B9848A /* SamsungProduct.swift */; };
+		8B2EBDC3250A38EB00B9848A /* CustomPrettyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2EBDC2250A38EB00B9848A /* CustomPrettyLabel.swift */; };
 		8B2FC83225061438005D0AD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2FC83125061438005D0AD3 /* AppDelegate.swift */; };
 		8B2FC83425061438005D0AD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2FC83325061438005D0AD3 /* SceneDelegate.swift */; };
 		8B2FC83625061438005D0AD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2FC83525061438005D0AD3 /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		8B2FC83E25061439005D0AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2FC83C25061439005D0AD3 /* LaunchScreen.storyboard */; };
 		8B2FC84925061439005D0AD3 /* ios_mvc_exerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2FC84825061439005D0AD3 /* ios_mvc_exerciseTests.swift */; };
 		8B2FC85425061439005D0AD3 /* ios_mvc_exerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2FC85325061439005D0AD3 /* ios_mvc_exerciseUITests.swift */; };
+		8B2FC865250614AA005D0AD3 /* AppleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2FC864250614AA005D0AD3 /* AppleProduct.swift */; };
+		8B2FC867250614B9005D0AD3 /* CustomPrettyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2FC866250614B9005D0AD3 /* CustomPrettyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B2EBDC0250A37EB00B9848A /* SamsungProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsungProduct.swift; sourceTree = "<group>"; };
+		8B2EBDC2250A38EB00B9848A /* CustomPrettyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPrettyLabel.swift; sourceTree = "<group>"; };
 		8B2FC82E25061438005D0AD3 /* ios-mvc-exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-mvc-exercise.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2FC83125061438005D0AD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B2FC83325061438005D0AD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		8B2FC84F25061439005D0AD3 /* ios-mvc-exerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-mvc-exerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B2FC85325061439005D0AD3 /* ios_mvc_exerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_mvc_exerciseUITests.swift; sourceTree = "<group>"; };
 		8B2FC85525061439005D0AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2FC864250614AA005D0AD3 /* AppleProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppleProduct.swift; path = "../../../mvc-tutorial/mvc-tutorial/Model/AppleProduct.swift"; sourceTree = "<group>"; };
+		8B2FC866250614B9005D0AD3 /* CustomPrettyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomPrettyView.swift; path = "../../../mvc-tutorial/mvc-tutorial/View/CustomPrettyView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,11 @@
 		8B2FC83025061438005D0AD3 /* ios-mvc-exercise */ = {
 			isa = PBXGroup;
 			children = (
+				8B2FC86325061473005D0AD3 /* Controller */,
+				8B2FC86225061467005D0AD3 /* View */,
 				8B2FC83125061438005D0AD3 /* AppDelegate.swift */,
 				8B2FC83325061438005D0AD3 /* SceneDelegate.swift */,
-				8B2FC83525061438005D0AD3 /* ViewController.swift */,
+				8B2FC8612506144C005D0AD3 /* Model */,
 				8B2FC83725061438005D0AD3 /* Main.storyboard */,
 				8B2FC83A25061439005D0AD3 /* Assets.xcassets */,
 				8B2FC83C25061439005D0AD3 /* LaunchScreen.storyboard */,
@@ -126,6 +136,32 @@
 				8B2FC85525061439005D0AD3 /* Info.plist */,
 			);
 			path = "ios-mvc-exerciseUITests";
+			sourceTree = "<group>";
+		};
+		8B2FC8612506144C005D0AD3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B2FC864250614AA005D0AD3 /* AppleProduct.swift */,
+				8B2EBDC0250A37EB00B9848A /* SamsungProduct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B2FC86225061467005D0AD3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B2FC866250614B9005D0AD3 /* CustomPrettyView.swift */,
+				8B2EBDC2250A38EB00B9848A /* CustomPrettyLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B2FC86325061473005D0AD3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8B2FC83525061438005D0AD3 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B2FC865250614AA005D0AD3 /* AppleProduct.swift in Sources */,
 				8B2FC83625061438005D0AD3 /* ViewController.swift in Sources */,
+				8B2EBDC3250A38EB00B9848A /* CustomPrettyLabel.swift in Sources */,
+				8B2FC867250614B9005D0AD3 /* CustomPrettyView.swift in Sources */,
 				8B2FC83225061438005D0AD3 /* AppDelegate.swift in Sources */,
+				8B2EBDC1250A37EB00B9848A /* SamsungProduct.swift in Sources */,
 				8B2FC83425061438005D0AD3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
